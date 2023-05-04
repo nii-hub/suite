@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
      <!-- css file -->
      <link rel="stylesheet" href="./style.css">
+     <!-- font-family -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
     <title>Suite| Landing Page</title>
   </head>
   <body>
     <div class="wrapper">
       <section class="header-wrapper">
-        <div class="navbar-container mt-5">
-          <div class="logo-container">
+        <div class="navbarcontainer mt-5 container d-flex justify-content-between">
+          <div class="logocontainer">
             <p class="logoname">suite</p>
           </div>
           <div class="beta-container">
-            <button class="request-beta">
+            <button class="request-beta navbeta">
               Request Beta Access
             </button>
           </div>
@@ -27,9 +31,53 @@
 
       <section class="body-wrapper-1">
         <div class="container mt-5">
-          
+          <div class="text-ratings-wrapper d-flex justify-content-between">
+            <div class="text-box col-xl-6">
+            <h1 class="bodyheadtext">
+              A super solution for your business.
+            </h1>
+            <p class="subtext">
+              Our marketing and sales automations help you scale your outreach to get more leads for your company. 
+            </p>
+            <div class="beta-container-body">
+              <button class="request-beta bodybeta">
+                Request Beta Access
+              </button>
+            </div>
+            </div>
+
+            <div class="imagebox col-xl-3">
+              <img src="asset/image-hero-portrait.png" alt="imageportrait">
+            </div>
+
+            <div class="ratings col-xl-3 col-sm-12">
+              <div class="text-number-rating">
+                <p>
+                  <span class="big-rating">2k+</span>
+                  <br/>
+                  <span class="small-rating">companies</span>
+                </p>
+              </div>
+              <div class="text-number-rating">
+                <p>
+                  <span class="big-rating">8</span>
+                  <br/>
+                  <span class="small-rating">languages</span>
+                </p>
+              </div>
+              <div class="text-number-rating">
+                <p>
+                  <span class="big-rating">1.2m</span>
+                  <br/>
+                  <span class="small-rating">leads</span>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+      <section class="body-wrapper-2"></section>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
