@@ -1,1 +1,1 @@
-# suite
+# Project setup with vite
