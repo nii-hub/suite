@@ -16,11 +16,15 @@
   --color-gradiant:  linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
 }
 
-/* header start */
+/*************** MEDIA QUERIES **************/
 
+/* Desktop View */
+
+@media screen and (min-width: 1024px) {
+  /* header start */
 .navbarcontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 0rem 4rem;
 }
@@ -48,7 +52,6 @@
   border-radius: 0.5rem;
   border: none;
 }
-
 /* header end */
 
 /* body wrapper 1 start */
@@ -59,6 +62,12 @@
 
 .bodybeta {
   background: var(--color-gradiant);
+}
+
+.curved1 {
+  position: absolute;
+  left: 469px;
+  top: 230px;
 }
 
 .big-rating {
@@ -126,3 +135,357 @@
 }
 
 /* body wrapper 1 end */
+
+/* body wrapper 2 start */
+.body-wrapper-2{
+  height: 50rem;
+}
+
+.bodycontainer2 {
+  position: absolute;
+  width: 1050px;
+  height: 540.56px;
+  left: 250px;
+  top: 927.44px;
+  background-color: var(--color-172339);
+  padding: 2rem 8rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.curvepng2{
+  position: absolute;
+  left: 445px;
+  top: 170px;
+}
+
+.textbox2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 5rem 0rem;
+  width: 350px;
+}
+
+.headbodytext2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.textbold {
+  font-style: bold;
+  font-weight: 700;
+}
+
+.image2 {
+  position: absolute;
+  top: -50px;
+  left: 70px;
+}
+
+.textsub1{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+}
+
+.firtbottom {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.secondbottom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+
+/* body wrapper 2 end */
+
+/* footer start */
+.footer {
+  background-color: var(--color-F3EDE7);
+  position: absolute;
+  height: 464px;
+  left: 0px;
+  top: 1252px;
+  width: 1519px;
+}
+
+.footercontainer {
+  position: absolute;
+  height: 32px;
+  left: 275px;
+  top: 400px;
+  width: 1000px;
+}
+
+.footericons {
+  gap: 2rem;
+}
+
+.logofooter {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.4444444477558136px;
+  text-align: left;
+  color: var(--color-172339);
+}
+
+.copywright {
+  color: var(--color-49566D);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+/* footer end */
+}
+
+
+/* Tablet View */
+@media screen and (min-width: 768px)
+ and (max-width: 1024px){
+  .wrapper{
+    /* background-color: red; */
+  }  
+  /* header start */
+  .navbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2.5rem;
+  }
+
+  .navbeta {
+    background: var(--color-FAF8F6);
+    color: var(--color-172339);
+    border: 1px solid var(--color-172339);
+  }
+  
+  .logoname {
+    color: var(--color-172339);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  .request-beta{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    padding: 0.1rem 1rem;
+    border-radius: 0.3rem;
+  }
+
+  /* body wrapper 1 start */
+
+  .body-wrapper-1 {
+    margin: 0px 166px;
+  }
+
+  .bodybeta {
+    background: var(--color-172339);
+    color: var(--color-FAF8F6);
+    border: none;
+  }
+
+  .curved1 {
+    display: none;
+  }
+
+  .big-rating {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-172339);
+    text-transform: uppercase;
+  }
+
+  .small-rating {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-49566D);
+    text-transform: uppercase;
+  }
+
+  .text-box {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 96px;
+    top: 346px;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagebox {
+    margin-right: 2rem;
+    margin-left: 26rem;
+  }
+
+
+  .bodyheadtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 64px;
+    width: 600px;
+    height: 120px;
+  }
+
+  .subtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 350px;
+    height: 96px;
+    color: var(--color-49566D);
+  }
+
+  .ratings {
+    position: absolute;
+    top: 800px;
+    left: 80px;
+    display: flex;
+    gap: 5rem;
+  }
+
+  .text-number-rating {
+    margin: 0rem 3rem;
+  }
+
+  /* body wrapper 1 end */
+
+  /* body wrapper 2 start */
+.body-wrapper-2{
+  height: 50rem;
+  width: 100rem;
+}
+
+.bodycontainer2 {
+  position: relative;
+  background-color: var(--color-172339);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  top: 350.44px;
+  height: 790px;
+  margin: 10rem auto;
+  border-radius: 0.3rem;
+  z-index: 1;
+}
+
+.image2 {
+  position: absolute;
+  width: 15rem;
+  margin: 0rem auto;
+  top: -150.5px;
+  left: 350px;
+}
+
+.curvepng2{
+  position: absolute;
+  left: 445px;
+  top: 300px;
+}
+
+.textbox2 {
+  position: absolute;
+  left: 15px;
+  top: 400px;
+}
+
+.headbodytext2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 5rem;
+}
+
+.textbold {
+  font-style: bold;
+  font-weight: 700;
+}
+
+.textsub1{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.bottomtext {
+  margin: 5rem 0rem;
+}
+
+.firtbottom {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.secondbottom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+
+/* body wrapper 2 end */
+
+/* footer start */
+.footer {
+  background-color: var(--color-F3EDE7); 
+  position:relative;
+  display: block;
+}
+
+.footercontainer {
+  position: absolute;
+  top: 400px;
+  margin: 3rem 0rem;
+}
+
+.footericons {
+  gap: 2rem;
+}
+
+.logofooter {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: var(--color-172339);
+}
+
+.copywright {
+  color: var(--color-49566D);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+}
+/* footer end */
+}
