@@ -98,6 +98,7 @@
     grid-template-columns: 1fr 1fr 1fr !important;
     gap: 1rem;
     padding: 3rem 5rem; 
+    z-index: 2 !important;
   }
 
   .image2{
@@ -140,7 +141,21 @@
     text-align: left;
   }
 
+  .footer {
+    position: absolute;
+    width: 100%;
+    top: 80rem;
+    height: 30rem !important;
+    z-index: -1 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 5rem !important; */
+  }
+
   .footercontainer {
+    position: absolute;
+    top: 25rem;
     display: flex;
     flex-direction: row !important;
     justify-content: space-between;
@@ -286,7 +301,10 @@
   /* ------------------------------------------ */
 
   /* body wrapper 2 start */
-
+  .bodycontainer2{
+    position: absolute;
+    z-index: 2 !important;
+  }
 .image2 {
   position: absolute;
   width: 15rem;
@@ -345,13 +363,19 @@
 /* footer start */
 .footer {
   background-color: var(--color-F3EDE7); 
-  position:relative;
+  position: absolute;
+  top: 90rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 50rem !important;
+  width: 100%;
+  z-index: -1 !important;
 }
 
 .footercontainer {
   position: absolute;
+  top: 45rem !important;
   display: flex !important;
   flex-direction: row !important;
   justify-content: space-between !important;
