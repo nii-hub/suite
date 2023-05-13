@@ -420,6 +420,8 @@
     font-weight: 700;
     font-size: 32px;
     color: var(--color-172339);
+    margin: 0px;
+    padding: 0px;
   }
 
   .navbeta {
@@ -482,8 +484,9 @@
   .bodybeta {
     background-color: var(--color-172339);
     color: var(--color-F3EDE7);
-    width: 300px;
-    padding: 0.5rem 0rem;
+    width: 16rem;
+    height: 3.5rem;
+    /* padding: 0.5rem 0rem; */
     border: none;
   }
 
